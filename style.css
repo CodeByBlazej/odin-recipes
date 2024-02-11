@@ -1,5 +1,7 @@
 body{
   background-color: antiquewhite;
+  margin: auto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1,
@@ -7,23 +9,32 @@ h2,
 h3{
   color: black;
   background-color: rgb(221, 72, 72);
-  font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
+  padding: 20px;
+  margin: 20px 50px;
+  border: 5px solid purple;
+  box-shadow: 10px 10px rgba(0,0,0,.3);
 }
 
 .american-goulash{
   height: auto;
   width: 500px;
+  margin: 0 auto;
+  display: block;
 }
 
 .skillet-chicken-bulgogi{
   height: auto;
   width: 500px;
+  margin: 0 auto;
+  display: block;
 }
 
 .lasagna{
   height: auto;
   width: 500px;
+  margin: 0 auto;
+  display: block;
 }
 
 .main-page{
@@ -32,4 +43,12 @@ h3{
   font-size: large;
   font-weight: bold;
   text-align: center;
+  padding: 20px;
+  margin: 20px 50px;
+  display: block;
+  list-style-type: none;
+}
+
+div{
+  margin: 10px;
 }
